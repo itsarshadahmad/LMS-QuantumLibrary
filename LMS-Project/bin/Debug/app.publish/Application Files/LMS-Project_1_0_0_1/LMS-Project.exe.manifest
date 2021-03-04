@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LMS-Project.exe" version="1.0.0.1" publicKeyToken="9122ac248d31c591" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="QL-LMS_ICON.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LMS-Project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LMS-Project.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LMS-Project.exe" size="6134688">
+      <assemblyIdentity name="LMS-Project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1WZl3aZJ94i48N+KiVsQiyWaW+k+CVdl0GH3QLu0Owc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LMS-Project.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LMS-Project.pdb" size="185856">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZoSaK4bYsGHnEKMAvgoKYO749+oP2q1ztK+xw6xCIaI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="QL-LMS_ICON.ico" size="37077">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eGK/6vxaFS8FTU/oEt1H+O/rRzvZCKBqXaxlhMyojJE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <fileAssociation extension=".exe" description="Quantum Library 1.0" progid="1" defaultIcon="QL-LMS_ICON.ico" xmlns="urn:schemas-microsoft-com:clickonce.v1" />
+<publisherIdentity name="CN=TALIB\dell" issuerKeyHash="d3e509da5d666ff04b587fde503ec5f3104dc4ea" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Dzkco6tg9yZHuhsyby4s1CeVsCP/5C1gjhZ9BryzhPU=</DigestValue></Reference></SignedInfo><SignatureValue>XFq8uJ2mEhW7atXWdSOQwcpRJ7k6Cn824TEpQz52Qr21spnHnh9aPzyOsoePAzcHImvZvFQ3X1PilH60PfzwGe0IlQyYo49GkD0vbtrDefYWzQVK44jzsgdjI1bzeWJ/SNJTBWuzo6UOTU3kEGAaqojpFjNtmrvnGEJ26qZCmcE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mT5hGA39NZlsJ4G57yrm56OYHHtIgGNP6/YuZ0MfLQK5+SC3VmDnEj/kQI9M+tUTP5UXPJygFs329vDiIFvC07IFnmJHsvkfC/gbIEcuvLo+GgWArMAEj2RfybrhixQF0VTs2KC6w6VWkTyug9EJJUqAb7rHe/YdEeFhY6ClXq0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f584b3bc067d168e602de4ff23b09527d42c2e6f321bba4726f760aba31c390f" Description="" Url=""><as:assemblyIdentity name="LMS-Project.exe" version="1.0.0.1" publicKeyToken="9122ac248d31c591" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TALIB\dell</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>KyLkGK3kPVBHWiRrLln/CTG0AlpPsZ4WutQ7fBKyGoo=</DigestValue></Reference></SignedInfo><SignatureValue>R9I5V1jlA406Y7SGNCvcr9EBmq2OR/kUEsaycsA1viIC+bYmkbRkHVm49LnaGhD/D8Pc1p/uIEWCK7j0xU03TKiT0Il7hJSnfC6aWa3eF5j0Yah4wGnUM8CeGWkui/3atfs8kS3Vq7JhJTb3Q7SZ6kMLEJffrGphfVE3sg+rVzg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mT5hGA39NZlsJ4G57yrm56OYHHtIgGNP6/YuZ0MfLQK5+SC3VmDnEj/kQI9M+tUTP5UXPJygFs329vDiIFvC07IFnmJHsvkfC/gbIEcuvLo+GgWArMAEj2RfybrhixQF0VTs2KC6w6VWkTyug9EJJUqAb7rHe/YdEeFhY6ClXq0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQMz+wu6qI4aRGNUUfmoNoGjANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQAVABBAEwASQBCAFwAZABlAGwAbDAeFw0yMTAyMjUwODE4NTJaFw0yMjAyMjUxNDE4NTJaMB8xHTAbBgNVBAMeFABUAEEATABJAEIAXABkAGUAbABsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCZPmEYDf01mWwngbnvKubno5gce0iAY0/r9i5nQx8tArn5ILdWYOcSP+RAj0z61RM/lRc8nKAWzfb28OIgW8LTsgWeYkey+R8L+BsgRy68uj4aBYCswASPZF/JuuGLFAXRVOzYoLrDpVaRPK6D0QklSoBvusd79h0R4WFjoKVerQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAEOiKiu8G3gxVoIGQFUcdu9sFCjFyZgAAs0v1C1GSIoZ9rEwT3hxtpd9kqp3Ej5/mfTDtLkm27eP5HYvhPU1gRDsI7PiU1RoE512NUx163IqYqAe9tGfKw4giIhrmRGG82YpSjNZpgXZPNGr0YE7lc85JQwfWXrMnKZG3OaLOtGA</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
